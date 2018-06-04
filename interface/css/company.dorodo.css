@@ -1,0 +1,22 @@
+#header .navigation > .nav-container > .nav:hover > .nav-link {
+	background-color:#fff;
+	color:#5b6466;
+}
+#header .navigation .nav-container .nav .nav-link:hover {
+	background-color:#e83d38;
+	color:#000;
+}
+#header .navigation .nav-container .nav .nav-link {
+/*	background-color:#fff; */
+/*	color:#e83d38;*/
+}
+#header .breadcrumbs-container .breadcrumb a {
+	color:#e83d38;
+}
+#header .navigation .nav-container .nav .nav-container .nav .nav-link:hover {
+	background-color:#e83d38 !important;
+	color:#fff !important;
+}
+#header .navigation .nav-container .nav .nav-container .nav .nav-link {
+	color:#000;
+}

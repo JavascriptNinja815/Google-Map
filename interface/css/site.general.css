@@ -1,0 +1,263 @@
+
+/**
+ * @author Joshua D. Burns <jdburnz@gmail.com>, +1 (616) 481-1585, <https://www.linkedin.com/in/joshuadburns>
+ * @copyright Copyright (c) 2014, Joshua D. Burns. All Rights Reserved.
+ * @license http://www.joshburns.me/licenses/CasterDepot License For Caster Depot (used to be named Great Lakes Caster)
+ */
+
+/*******************************************************************************
+ *     GENERAL                                                                 *
+ ******************************************************************************/
+
+html,
+body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+body {
+	font-family:Helvetica,Arial,"Times New Roman";
+	font-size:16px;
+}
+#body {
+	position:fixed;
+	margin-top:74px;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	overflow-y:scroll;
+	overflow-x:auto;
+	z-index:1;
+}
+.padded {
+	padding:10px;
+}
+.padded-x {
+	padding-left:10px;
+	padding-right:10px;
+}
+.padded-y {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.nopadding {
+	padding:0;
+}
+img {
+	border:0px;
+}
+
+.content.content-link {
+	cursor:pointer;
+	color:#00f;
+	text-decoration:none;
+}
+.content.content-link:hover {
+	text-decoration:underline;
+}
+
+@media only screen and (max-width: 640px) {
+	#body {
+		margin-top:54px;
+	}
+}
+
+/*******************************************************************************
+ *     OVERLAY-SPECIFIC                                                        *
+ ******************************************************************************/
+
+#so-details-container {
+	margin-bottom:32px;
+}
+
+.order-notes-container .order-notes-row {
+   border-bottom:1px solid #ccc;
+   padding-bottom:2px;
+   padding-top:2px;
+   font-size:0.8em;
+}
+.order-notes-container .order-notes-row:first-of-type {
+   padding-top:0;
+}
+.order-notes-container .order-notes-row:last-of-type {
+   border-bottom:none;
+   padding-bottom:0;
+}
+
+.order-notes-new-container {
+   margin:0;
+   min-height:23px;
+   font-size:0.8em;
+}
+.order-notes-new-container input {
+   font-size:11px;
+   height:17px;
+   line-height:17px;
+   padding:2px 4px;
+   margin:0;
+   
+}
+.order-notes-new-container button {
+   font-size:11px;
+   height:23px;
+   line-height:17px;
+   padding:2px 4px;
+   margin:0;
+   left:-4px;
+   position:relative;
+}
+
+/**
+ * SEARCH FIELDS
+ **/
+
+.search-fields {
+	overflow:hidden;
+}
+.search-fields .search-field {
+	display:inline-block;
+	padding-right:12px;
+	padding-bottom:12px;
+	vertical-align:top;
+	border-left:1px solid #eee;
+	width:290px;
+	position:relative;
+}
+.search-fields .search-field:first-of-type {
+	border-left:none;
+}
+.search-fields .search-field .control-group .control-label {
+	width:110px;
+	cursor:default;
+	text-align:right !important;
+}
+.search-fields .search-field .control-group .controls {
+	margin-left:120px;
+	text-align:left !important;
+}
+.search-fields .search-field .search-field-available,
+.search-fields .search-field .search-field-filterby {
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:4px;
+	width:160px;
+	height:140px;
+	overflow:auto;
+}
+.search-fields .search-field .search-field-available .search-field-value,
+.search-fields .search-field .search-field-filterby .search-field-value {
+	padding:2px;
+	font-size:14px;
+	color:#333;
+	cursor:pointer;
+	-moz-user-select: -moz-none;
+	-moz-user-select: none;
+	 -o-user-select: none;
+	 -khtml-user-select: none;
+	 -webkit-user-select: none;
+	 -ms-user-select: none;
+	 user-select: none;
+}
+.search-fields .search-field .search-field-available .search-field-value:hover,
+.search-fields .search-field .search-field-filterby .search-field-value:hover {
+	background-color:#ddd;
+}
+.search-fields .search-field .search-field-title {
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:12px;
+}
+.search-fields .search-field .search-field-section {
+	display:inline-block;
+	padding-right:24px;
+}
+.search-fields .search-field .search-field-add,
+.search-fields .search-field .search-field-remove {
+	cursor:pointer;
+	font-size:0.7em;
+	position:absolute;
+}
+.search-fields .search-field .search-field-add {
+	top:0px;
+	right:44px;
+}
+.search-fields .search-field .search-field-remove {
+	top:0px;
+	right:12px;
+}
+.search-fields .search-field .search-field-add .fa-circle {
+	color:#9a9;
+}
+.search-fields .search-field .search-field-remove .fa-circle {
+	color:#a99;
+}
+.search-fields .search-field .search-field-add:hover .fa-circle {
+	color:#393;
+}
+.search-fields .search-field .search-field-remove:hover .fa-circle {
+	color:#933;
+}
+
+.search-fields .search-field.search-field-thin {
+	width:180px;
+	padding-left:12px;
+}
+.search-fields .search-field.search-field-thin .search-field-title {
+	text-align:left;
+}
+.search-fields .search-field.search-field-thin .control-group label.control-label {
+	float:none;
+}
+.search-fields .search-field.search-field-thin .control-group .controls {
+	margin-left:0;
+}
+
+/**
+  BLOCKS
+**/
+
+.blocks {
+	font-family:"Titillium Web";
+	max-width:836px;
+}
+.blocks .block-container {
+	display:inline-block;
+	vertical-align:top;
+	padding-top:10px;
+}
+.blocks .block-title {
+	font-size:20px;
+	line-height:20px;
+	font-weight:bold;
+	text-align:center;
+}
+.blocks .block {
+	line-height:140px;
+	cursor:pointer;
+}
+.blocks .block {
+	background-color:#f9f9f9;
+	border-radius: 35px;
+	width:140px;
+	height:140px;
+	margin:15px 12px 5px 12px;
+	vertical-align:middle;
+	box-shadow:0 0 5px rgba(0, 0, 0, 1);
+	font-size:70px;
+	font-weight:bold;
+	color:#000;
+	text-shadow:0 0 3px rgba(0, 0, 0, 1);
+	position:relative;
+}
+.blocks .block .block-count {
+	text-align:center;
+}
+.blocks .block:hover {
+	background-color:#eee;
+}
+.blocks .block-count.block-count-okay {
+	color:#eee;
+}

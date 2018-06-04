@@ -1,0 +1,53 @@
+.permissions .remove,
+.permissions > .add,
+#edit-role-container > .delete {
+	cursor:pointer;
+}
+.permissions .remove .remove-bg,
+#edit-role-container > .delete > .delete-bg {
+	color:#f00;
+}
+.permissions .remove .remove-fg,
+.permissions > .add .add-fg,
+#edit-role-container > .delete > .delete-fg{
+	color:#fff;
+}
+.permissions > .add .add-bg {
+	color:#0c0;
+}
+.permissions > .permission {
+	clear:both;
+	overflow:hidden;
+}
+.permissions > .permission > * {
+	display:block;
+	float:left;
+	height:32px;
+	line-height:32px;
+	vertical-align:middle;
+	margin-right:6px;
+}
+.permissions > .permission.prototype {
+	display:none;
+}
+
+#edit-role-container {
+	position:relative;
+}
+#edit-role-container > .delete {
+	position:absolute;
+	top:3px;
+	right:3px;
+}
+
+#edit-role-container .text-description {
+	font-style:italic;
+	font-size:12px;
+	color:#999;
+}
+.permissions-container textarea {
+	width:90%;
+	min-width:200px;
+	max-width:500px;
+	height:180px;
+}

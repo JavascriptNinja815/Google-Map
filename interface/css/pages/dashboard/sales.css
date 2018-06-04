@@ -1,0 +1,134 @@
+
+.dashboard h3 {
+	font-size: 21px;
+}
+.dashboard tbody tr:hover td {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: #eee;
+}
+.dashboard tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+.dashboard tr:nth-child(odd):last-of-type {
+	border-bottom: 1px solid #ddd;
+}
+.dashboard tbody tr td {
+	border-top: 1px solid #ddd;
+	font-size: 11px;
+	padding: 8px;
+	line-height: 16px;
+}
+.dashboard thead, .dashboard tfoot {
+	background-color: #f9f9f9;
+	font-size: 11px;
+	line-height: 16px;
+}
+.dashboard thead tr > *, .dashboard tfoot tr > * {
+	padding: 8px;
+	font-weight: bold;
+}
+.dashboard table {
+	width: 100%;
+}
+.dashboard tfoot {
+	background-color: #ddd;
+}
+.dashboard {
+	padding-bottom: 20px;
+}
+.dashboard .right {
+	text-align: right;
+}
+.dashboard .datetime {
+	font-size:12px;
+	font-style:italic;
+	line-height:21px;
+	vertical-align:middle;
+	font-weight:normal;
+	display:inline-block;
+	padding-left:20px;
+}
+
+.dashboard #pie-container {
+	text-align:center;
+}
+.dashboard #pie-container > .pie {
+	display:inline-block;
+}
+.dashboard .clickable {
+	color:#00f;
+}
+.dashboard .clickable:hover {
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.dashboard .so-blocks,
+.dashboard .goal-blocks {
+	font-family:"Titillium Web";
+	text-align:center;
+	max-width:836px;
+}
+.dashboard .so-blocks .so-block-container,
+.dashboard .goal-blocks .goal-block-container {
+	display:inline-block;
+	vertical-align:top;
+	padding-top:10px;
+}
+.dashboard .so-blocks .so-block-title,
+.dashboard .goal-blocks .title {
+	font-size:20px;
+	line-height:20px;
+	font-weight:bold;
+}
+.dashboard .so-blocks .so-block {
+	line-height:140px;
+	cursor:pointer;
+}
+.dashboard .so-blocks .so-block,
+.dashboard .goal-blocks .goal-block {
+	background-color:#f9f9f9;
+	border-radius: 35px;
+	width:140px;
+	height:140px;
+	margin:15px 12px 5px 12px;
+	vertical-align:middle;
+	box-shadow:0 0 5px rgba(0, 0, 0, 1);
+	font-size:70px;
+	font-weight:bold;
+	color:#000;
+	text-shadow:0 0 3px rgba(0, 0, 0, 1);
+	position:relative;
+}
+.dashboard .so-blocks .so-block:hover {
+	background-color:#eee;
+}
+.dashboard .so-blocks .so-block-count.so-block-count-okay {
+	color:#eee;
+}
+
+.dashboard .goal-blocks .goal-block-container .title {
+	
+}
+.dashboard .goal-blocks .goal-block-container .percentage {
+	position:absolute;
+	top:0;
+	right:0;
+	padding:8px;
+	font-size:20px;
+}
+.dashboard .goal-blocks .goal-block-container .current {
+	display:block;
+	font-size:35px;
+	padding-top:36px;
+}
+.dashboard .goal-blocks .goal-block-container .of {
+	display:block;
+	font-size:20px;
+	padding:14px;
+}
+.dashboard .goal-blocks .goal-block-container .goal {
+	display:block;
+	font-size:35px;
+}

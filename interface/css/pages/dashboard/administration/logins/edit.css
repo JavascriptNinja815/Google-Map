@@ -1,0 +1,57 @@
+.permissions-container {
+	overflow:hidden;
+}
+.permission-container {
+	overflow:hidden;
+}
+.permission-container .permission {
+	float:left;
+	width:300px;
+}
+.permission-container .permission-title {
+	float:left;
+}
+.permission-container .permissions {
+	clear:both;
+}
+.permission-container .permission-checkall,
+.permission-container .permission-uncheckall {
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+	font-size:0.9em;
+	color:#aaa;
+	cursor:pointer;
+}
+.permission-container .permission-checkall:hover,
+.permission-container .permission-uncheckall:hover {
+	color:#900;
+}
+#save-container {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	line-height:32px;
+	background-color:#fbf4f4;
+	border-top:1px solid #000;
+	padding-left:4px;
+}
+#edit-login-container {
+	position:relative;
+}
+#edit-login-container > .delete {
+	cursor:pointer;
+}
+#edit-login-container > .delete > .delete-bg {
+	color:#f00;
+}
+#edit-login-container > .delete > .delete-fg{
+	color:#fff;
+}
+#edit-login-container > .delete {
+	position:absolute;
+	top:-7px;
+	right:-7px;
+}

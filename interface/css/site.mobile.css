@@ -1,0 +1,108 @@
+
+// Android
+@media screen and (max-width:240px) {
+	
+}
+
+// Android, iPhone 1/3G/3GS
+@media screen and (max-width:320px) {
+	
+}
+
+// Android
+@media screen and (max-width:360px) {
+
+}
+
+// Android
+@media screen and (max-width:400px) {
+	
+}
+
+// Android
+@media screen and (max-width:450px) {
+	
+}
+
+// Android
+@media screen and (max-width:480px) {
+	
+}
+
+// Android
+@media screen and (max-width:540px) {
+	
+}
+
+// Android, iPhone 4/4S/5/5C/5S
+@media screen and (max-width:640px) {
+	
+}
+
+// Android
+@media screen and (max-width:720px) {
+	
+}
+
+// Android
+@media screen and (max-width:750px) {
+	
+}
+
+// Android, iPad 1/2/Mini
+@media screen and (max-width:768px) {
+	
+}
+
+// Android
+@media screen and (max-width:800px) {
+	
+}
+
+// Android, iPhone 4/4S
+@media screen and (max-width:960px) {
+	
+}
+
+// Android, iPad 1/2/Mini
+@media screen and (max-width:1024px) {
+	#header .logo-container .logo {
+		width:24px;
+		height:24px;
+	}
+}
+
+// Android, iPhone 6 Plus
+@media screen and (max-width:1080px) {
+	
+}
+
+// iPhone 5/5C/5S
+@media screen and (max-width:1136px) {
+	
+}
+
+// Android
+@media screen and (max-width:1280px) {
+	
+}
+
+// Android
+@media screen and (max-width:1334px) {
+	
+}
+
+// iPad Air/Mini Retina
+@media screen and (max-width:1536px) {
+	
+}
+
+// Android, iPhone 6 Plus
+@media screen and (max-width:1920px) {
+	
+}
+
+// iPad Air/Mini Retina
+@media screen and (max-width:2048px) {
+	
+}

@@ -1,0 +1,34 @@
+
+/**
+ * @author Joshua D. Burns <jdburnz@gmail.com>, +1 (616) 481-1585, <https://www.linkedin.com/in/joshuadburns>
+ * @copyright Copyright (c) 2014, Joshua D. Burns. All Rights Reserved.
+ * @license http://www.joshburns.me/licenses/CasterDepot License For Great Lakes Caster
+ */
+
+/*******************************************************************************
+ *     HEADER                                                                  *
+ ******************************************************************************/
+
+@media only screen and (min-width: 641px) {
+	#header {
+		position:fixed;
+		top:0px;
+		left:0px;
+		width:100%;
+		background-color:#fff;
+		z-index:100;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#header {
+		position:fixed;
+		top:0;
+		right:0;
+		left:0;
+		min-height:54px;
+		overflow:auto;
+		z-index:100;
+		background-color:rgba(0, 0, 0, 0.6);
+	}
+}

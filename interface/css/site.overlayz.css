@@ -1,0 +1,16 @@
+
+.overlayz-link {
+	cursor:pointer;
+	color:#00f;
+}
+.overlayz-link.fa,
+.action-link.fa,
+.action-link .fa {
+	font-size:22px;
+}
+.overlayz-link.fa.faded {
+	color:#999;
+}
+.overlayz-link.no-highlight {
+	color:#999;
+}

@@ -1,0 +1,15 @@
+
+{
+	"ServiceCode" : [" MERCURYMULTIP"],
+	"Carrier" : ["Dayton"],
+	"ShipmentId" : ["8F88BW090YDJ6"],
+	"SUCCESS" : [1],
+	"Service" : ["LTL"],
+	"SCAC" : ["DAFG"],
+	"TrackingNumber" : ["UAP005535826"],
+	"OrderNumber" : [""],
+	"ETA" : ["01/20/2017"],
+	"Action" : ["Void"],
+	"Mode" : ["LTL"],
+	"Cost" : [117.45]
+}

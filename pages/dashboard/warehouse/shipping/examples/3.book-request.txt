@@ -1,0 +1,63 @@
+
+TEST INTERFACE
+DEV:  https://dintelliship2.engagetechnology.com/customer/order/call_api/book_shipment
+LIVE: https://intelliship2.engagetechnology.com/customer/order/call_api/book_shipment
+
+API URLS
+DEV: https://dintelliship2.engagetechnology.com/customer/order/api1/book_shipment
+LIVE: https://intelliship2.engagetechnology.com/customer/order/api1/book_shipment
+
+{
+	"carrier": "FedEx",
+	"service": "Ground",
+	"datetoship" : "12/30/2016",
+	"dateneeded" : "01/20/2017",
+	"username" : "api@casterdepot.com",
+	"password" : "1qaz*IK<",
+	"fromname" : "CasterDepot",
+	"fromaddress1" : "4652 Division St.",
+	"fromaddress2" : "",
+	"fromcity" : "Wayland",
+	"fromstate" : "MI",
+	"fromzip" : "49348",
+	"fromcountry" : "US",
+	"fromcontact" : "Penny",
+	"fromphone" : "6168770805",
+	"fromemail" : "jdburnz@gmail.comm",
+	"fromdepartment" : "Customer Service",
+	"toname" : "INTERIOR CONCEPTS CORPORATION",
+	"toaddress1" : "18525 TRIMBLE COURT",
+	"toaddress2" : "",
+	"tocity" : "SPRING LAKE",
+	"tostate" : "MI",
+	"tozip" : "49456",
+	"tocountry" : "US",
+	"tocustomernumber" : "INT16",
+	"pkg_detail_row_count" : 2,
+	"weighttype" : "LBS",
+	"tocontact" : "Joshua Burns",
+	"tophone" : "6164811585",
+	"toemail" : "joshuadburns@hotmail.com",
+	"rownum_id_1" : 1,
+	"type_1" : "package",
+	"unittype_1" : "1",
+	"weight_1" : "22",
+	"dimlength_1" : "48",
+	"dimwidth_1" : "40",
+	"dimheight_1" : "48",
+	"description_1" : "Test Product 1",
+	"quantity_1" : "1",
+	"nmfc_1" : "1",
+	"class_1" : "65",
+	"rownum_id_2" : 2,
+	"type_2" : "package",
+	"unittype_2" : "1",
+	"weight_2" : "34",
+	"dimlength_2" : "48",
+	"dimwidth_2" : "40",
+	"dimheight_2" : "48",
+	"description_2" : "Test Product 1",
+	"quantity_2" : "1",
+	"nmfc_2" : "1",
+	"class_2" : "65"
+}

@@ -1,0 +1,23 @@
+#login-container {
+	width:400px;
+	margin:auto;
+}
+#login-container img {
+	margin-bottom:12px;
+}
+
+@media only screen and (max-width: 640px) {
+	#login-container {
+		width:auto;
+		padding:12px;
+		text-align:center;
+	}
+	#login-container .maven-logo {
+		max-width:300px;
+		margin:auto;
+		margin-bottom:12px;
+		height:auto;
+		width:auto;
+		text-align:center;
+	}
+}

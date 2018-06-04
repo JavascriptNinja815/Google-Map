@@ -1,0 +1,185 @@
+
+/**
+ * @author Joshua D. Burns <jdburnz@gmail.com>, +1 (616) 481-1585, <https://www.linkedin.com/in/joshuadburns>
+ * @copyright Copyright (c) 2014, Joshua D. Burns. All Rights Reserved.
+ * @license http://www.joshburns.me/licenses/CasterDepot License For Caster Depot (used to be named Great Lakes Caster)
+ */
+
+/*******************************************************************************
+ *     NAVIGATION                                                              *
+ ******************************************************************************/
+
+@media only screen and (min-width: 641px) {
+	#header > .navigation {
+		width:100%;
+		white-space:nowrap;
+		overflow:auto;
+	}
+
+	#header > .navigation > .nav-container,
+	#header > .navigation > .logo-container {
+		display:inline-block;
+		font-size:0px;
+		white-space:nowrap;
+	}
+
+	#header > .navigation > .logo-container {
+		margin-left:12px;
+		margin-right:12px;
+		vertical-align:top;
+	}
+	#header .logo-container .logo {
+		display:block;
+		width:160px;
+		height:48px;
+		text-align:center;
+	}
+	#header .logo-container .logo img {
+		max-width:160px;
+		max-height:30px;
+		padding-top:8px;
+	}
+	#header .logo-container .logo img:first-of-type {
+		padding-right:6px;
+	}
+	#header .logo-container .logo img {
+		-webkit-filter:drop-shadow(1px 1px 1px #000);
+	}
+	#header .logo-container .logo img {
+		filter:drop-shadow(1px 1px 1px #000);
+	}
+
+	#header > .navigation > .nav-container > .nav {
+		margin:0;
+		display:inline-block;
+		font-size:16px;
+		position:relative;
+	}
+	#header > .navigation > .nav-container > .nav > .nav-link {
+		line-height:48px;
+		padding-left:18px;
+		padding-right:18px;
+		border-right:1px solid #ccc;
+		display:block;
+		background-color:#646567;
+		color:#fff;
+		z-index:100;
+		cursor:default;
+	}
+	#header > .navigation > .nav-container > .nav > .nav-link:link {
+		cursor:pointer;
+	}
+	#header > .navigation > .nav-container > .nav:hover > .nav-link {
+		background-color:#fff;
+		color:#5b6466;
+		text-decoration:none;
+	}
+	#header > .navigation > .nav-container > .nav:first-of-type > .nav-link {
+		border-left:1px solid #ccc;
+	}
+	#header > .navigation > .nav-container > .nav > .nav-container {
+		display:none;
+		border-left:1px solid #ccc;
+		border-right:1px solid #ccc;
+		border-top:1px solid #ccc;
+		z-index:99;
+		background-color:#fff;
+		position:fixed;
+	}
+	#header > .navigation > .nav-container > .nav > .nav-container > .nav {
+		margin:0;
+		position:relative;
+		z-index:99999;
+	}
+	#header > .navigation > .nav-container > .nav > .nav-container > .nav > .nav-link {
+		display:block;
+		padding-top:4px;
+		padding-bottom:4px;
+		padding-left:6px;
+		padding-right:16px;
+		border-bottom:1px solid #ccc;
+		font-size:14px;
+		min-width:120px;
+		color:#646567;
+		text-align:left;
+	}
+	#header > .navigation > .nav-container > .nav > .nav-container > .nav > .nav-link:hover {
+		background-color:#ffec00;
+		color:#5b6466;
+		text-decoration:none;
+		color:#646567;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.nav {
+		margin-bottom:0;
+	}
+	#header .logo-container .logo {
+		display:block;
+		width:100%;
+		height:58px;
+		margin:auto;
+		cursor:pointer;
+		text-align:center;
+	}
+	#header .logo-container .logo img {
+		padding-top:3px;
+		padding-bottom:5px;
+		max-width:40%;
+		max-height:48px;
+	}
+	#header .logo-container .logo img {
+		-webkit-filter:drop-shadow(1px 1px 1px #000);
+	}
+	#header .logo-container .logo img {
+		filter:drop-shadow(1px 1px 1px #000);
+	}
+	#header > .navigation > .logo-container {
+		background-color:#fff;
+		border-bottom:4px solid #98a7aa;
+	}
+	#header > .navigation > .nav-container {
+		background-color:#fff;
+		border-bottom:8px solid #334;
+		display:none;
+	}
+	#header > .navigation > .nav-container > .nav > .nav-link {
+		display:block;
+		width:100%;
+		text-align:center;
+		font-size:18px;
+		line-height:48px;
+		height:48px;
+		font-weight:bold;
+		border-bottom:1px solid #eee;
+		cursor:pointer;
+		color:#646567;
+	}
+	#header > .navigation > .nav-container > .nav > .nav-link:hover {
+		background-color:#eee;
+		text-decoration:none;
+	}
+	#header > .navigation > .nav-container > .nav > .nav-container {
+		display:none;
+	}
+	#header > .navigation > .nav-container > .nav > .nav-container > .nav > .nav-link:link,
+	#header > .navigation > .nav-container > .nav > .nav-container > .nav > .nav-link:visited,
+	#header > .navigation > .nav-container > .nav > .nav-container > .nav > .nav-link:active {
+		display:block;
+		line-height:40px;
+		height:40px;
+		font-size:16px;
+		text-align:center;
+		width:100%;
+		background-color:#f8f8f8;
+		color:#646567;
+		text-decoration:none;
+		font-weight:bold;
+		border-bottom:1px solid #e8e8e8;
+	}
+	#header > .navigation > .nav-container > .nav > .nav-container > .nav > .nav-link:hover {
+		background-color:#e6e6e6;
+		color:#646567;
+	}
+}

@@ -1,0 +1,65 @@
+
+/**
+ * @author Joshua D. Burns <jdburnz@gmail.com>, +1 (616) 481-1585, <https://www.linkedin.com/in/joshuadburns>
+ * @copyright Copyright (c) 2014, Joshua D. Burns. All Rights Reserved.
+ * @license http://www.joshburns.me/licenses/CasterDepot License For Great Lakes Caster
+ */
+
+/*******************************************************************************
+ *     BREADCRUMBS                                                             *
+ ******************************************************************************/
+
+#feedback-link {
+	position:absolute;
+	right:32px;
+}
+
+@media only screen and (min-width: 641px) {
+	#header .breadcrumbs-container {
+		clear:both;
+		border-top:1px solid #ccc;
+		border-bottom:1px solid #000;
+		overflow:hidden;
+		/*background-color:#fbf4f4;*/
+		background-color:#edefef;
+		font-size:12px;
+		line-height:24px;
+	}
+
+	#header .breadcrumbs-container > .breadcrumb {
+		float:left;
+		margin:0;
+		padding:0;
+		background-color:#edefef;
+	}
+
+	#header .breadcrumbs-container > .breadcrumb:before {
+		content:"»";
+		padding-left:10px;
+		padding-right:6px;
+	}
+
+	#header .breadcrumbs-container > .breadcrumb:first-of-type {
+		padding-left:10px;
+	}
+
+	#header .breadcrumbs-container > .breadcrumb:first-of-type:before {
+		content:none;
+		padding-left:8px;
+	}
+	#header .breadcrumbs-container > .breadcrumb a {
+		color:#5b6466;
+	}
+	#header .breadcrumbs-container > .collapse-navigation-container {
+		float:right;
+		font-size:14px;
+		padding-right:6px;
+		cursor:pointer;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.breadcrumbs-container {
+		display:none;
+	}
+}

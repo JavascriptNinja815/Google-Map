@@ -1,0 +1,112 @@
+
+/**
+ * @author Joshua D. Burns <jdburnz@gmail.com>, +1 (616) 481-1585, <https://www.linkedin.com/in/joshuadburns>
+ * @copyright Copyright (c) 2014, Joshua D. Burns. All Rights Reserved.
+ * @license http://www.joshburns.me/licenses/CasterDepot License For Caster Depot (used to be named Great Lakes Caster)
+ */
+
+/*******************************************************************************
+ *     TABLES                                                                  *
+ ******************************************************************************/
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+td, th {
+	margin:0;
+}
+th {
+	font-weight:bold;
+	text-align:left;
+}
+th.top, td.top {
+	vertical-align:top;
+}
+
+table.rows-navigate > tbody > tr {
+	cursor:pointer;
+}
+
+table.columns-sort thead {
+	background-color:#fff;
+	border-bottom:1px solid #ddd;
+}
+
+.table thead th {
+	white-space:nowrap;
+}
+.table-small th,
+.table-small td {
+	font-size:11px;
+	line-height:16px;
+}
+.table-small input {
+	font-size:11px;
+	line-height:17px;
+	height:17px;
+	padding:2px 4px;
+}
+.table-small select {
+	font-size:11px;
+	line-height:22px;
+	height:22px;
+	padding:2px 4px;
+}
+.table-small select > option {
+	font-size:11px;
+	line-height:15px;
+}
+input.tablesorter-filter {
+	margin:0px;
+	display:inline-block;
+	width:100%;
+}
+
+
+
+/**
+ * SORTABLE COLUMNS
+ */
+
+table.columns-sortable > thead > tr > th .tablesorter-header-inner,
+table.columns-sortable > thead > tr > td .tablesorter-header-inner {
+	float:left;
+}
+
+table.columns-sortable > thead > tr > th.tablesorter-header,
+table.columns-sortable > thead > tr > td.tablesorter-header {
+	cursor:pointer;
+	background-color:#f9f9f9;
+	background-image:url("data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==");
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:20px;
+}
+
+table.columns-sortable > thead > tr > th.tablesorter-header:hover,
+table.columns-sortable > thead > tr > th.tablesorter-header:hover {
+	background-color:#eee;
+}
+
+table.columns-sortable > thead > tr > th.tablesorter-headerUnSorted,
+table.columns-sortable > thead > tr > td.tablesorter-headerUnSorted {}
+
+table.columns-sortable > thead > tr > th.tablesorter-headerAsc,
+table.columns-sortable > thead > tr > td.tablesorter-headerAsc {
+	background-image:url("data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7");
+	background-color:#ddd;
+}
+
+table.columns-sortable > thead > tr > th.tablesorter-headerDesc,
+table.columns-sortable > thead > tr > td.tablesorter-headerDesc {
+	background-image:url("data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7");
+	background-color:#ddd;
+}
+
+/**
+ * STICKY HEADERS
+ */
+table.headers-sticky > thead {
+	background-color:#fff;
+	border-bottom:1px solid #ccc;
+}

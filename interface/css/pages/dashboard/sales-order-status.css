@@ -1,0 +1,30 @@
+#orders-container .content-customer-notes,
+#orders-container .content-order-notes {
+	font-size:1.4em;
+	text-align:center;
+}
+
+#orders-container .order-status-edit-container {
+	cursor:pointer;
+	font-size:1.5em;
+	white-space:nowrap;
+	display:inline-block;
+}
+#orders-container .order-status-edit-select {
+	width:auto;
+	margin-bottom:0;
+}
+#orders-container .order-status-edit-cancel-icon {
+	font-size:1.3em;
+	height:20px;
+	line-height:20px;
+	padding-right:4px;
+	top:3px;
+	position:relative;
+}
+#orders-container .content-order-status {
+	white-space:nowrap;
+}
+#orders-container .order-status-container {
+	display:inline-block;
+}

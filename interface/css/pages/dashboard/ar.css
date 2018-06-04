@@ -1,0 +1,56 @@
+.additional-filters {
+	display:inline-block;
+	padding-left:32px;
+}
+.calllist-title .additional-filters .filter {
+	display:inline-block;
+	padding-right:12px;
+}
+
+.content-paydate {
+	white-space:nowrap;
+}
+.content-paydate .edit-container {
+	font-size:1.5em;
+	cursor:pointer;
+	white-space:nowrap;
+	display:inline-block;
+}
+.content-paydate .paydate-container {
+	white-space:nowrap;
+	display:inline-block;
+}
+
+.content-credit-hold .fa-lock {
+	color:#f00;
+	font-size:32px;
+}
+.content-credit-hold .text {
+	display:none;
+}
+tr.on-credit-hold td {
+	background-color:#fee !important;
+}
+
+#openar-table th {
+	background-color:#ddd;
+	font-weight:bold;
+}
+#openar-table th,
+#openar-table td {
+	line-height:16px;
+	font-size:11px;
+	padding:8px;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+
+.dashboard .datetime {
+    font-size: 12px;
+    font-style: italic;
+    line-height: 21px;
+    vertical-align: middle;
+    font-weight: normal;
+    display: inline-block;
+    padding-left: 20px;
+}

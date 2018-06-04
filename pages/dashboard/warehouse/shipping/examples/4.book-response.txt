@@ -1,0 +1,38 @@
+
+{
+	"Response" : [
+		[
+			{
+				"ServiceCode" : "03",
+				"ShipmentId" : "8F88BWXNPPXVV",
+				"Carrier" : "UPS",
+				"SUCCESS" : 1,
+				"Label" : "https://dintelliship2.engagetechnology.com/print/label/8F88BWXNPPXVV.jpg",
+				"Service" : "Ground",
+				"SCAC" : "UPSN",
+				"TrackingNumber" : "1Z6158E50307140033",
+				"OrderNumber" : "245639",
+				"ETA" : "01/03/2017",
+				"Action" : "Ship",
+				"Mode" : "Small Package",
+				"TransitDays" : "1",
+				"Cost" : 14.62
+			}, {
+				"ServiceCode" : "03",
+				"ShipmentId" : "8F88BWXNRY91G",
+				"Carrier" : "UPS",
+				"SUCCESS" : 1,
+				"Label" : "https://dintelliship2.engagetechnology.com/print/label/8F88BWXNRY91G.jpg",
+				"Service" : "Ground",
+				"SCAC" : "UPSN",
+				"TrackingNumber" : "1Z6158E50313619247",
+				"OrderNumber" : "245639",
+				"ETA" : "01/03/2017",
+				"Action" : "Ship",
+				"Mode" : "Small Package",
+				"TransitDays" : "1",
+				"Cost" : 14.62
+			}
+		]
+	]
+}

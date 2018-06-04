@@ -1,0 +1,14 @@
+
+TEST INTERFACE
+DEV:  https://dintelliship2.engagetechnology.com/customer/order/call_api/cancel_shipment
+LIVE: https://intelliship2.engagetechnology.com/customer/order/call_api/cancel_shipment
+
+API URLS
+DEV: https://dintelliship2.engagetechnology.com/customer/order/api1/cancle_shipment
+LIVE: https://intelliship2.engagetechnology.com/customer/order/api1/cancle_shipment
+
+{
+	"username" : "api@casterdepot.com",
+	"password" : "1qaz*IK<",
+	"shipmentid": "8F88BW090YDJ6"
+}

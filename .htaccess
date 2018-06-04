@@ -1,0 +1,18 @@
+# @author Joshua D. Burns <jdburnz@gmail.com>, +1 (616) 481-1585, <https://www.linkedin.com/in/joshuadburns>
+# @copyright Copyright (c) 2014, Joshua D. Burns. All Rights Reserved.
+# @license http://www.joshburns.me/licenses/CasterDepot License For Caster Depot (used to be named Great Lakes Caster)
+
+php_value upload_max_filesize 4M
+php_value post_max_size 8M
+php_value memory_limit 500M
+
+# Activate the rewrite module.
+RewriteEngine On
+
+# Ensure the requested URL is not a file.
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Ensure the requested URL is not a directory.
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule !\.(js|ico|gif|jpg|png|css|bmp|zip|tar|gz*)$ index.php

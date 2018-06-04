@@ -1,0 +1,335 @@
+
+/**
+ * @author Joshua D. Burns <jdburnz@gmail.com>, +1 (616) 481-1585, <https://www.linkedin.com/in/joshuadburns>
+ * @copyright Copyright (c) 2014, Joshua D. Burns. All Rights Reserved.
+ * @license http://www.joshburns.me/licenses/CasterDepot License For Caster Depot (used to be named Great Lakes Caster)
+ */
+
+/* An attempt at preventing print screen captures */
+@media print {
+    html, body {
+       display: none;  /* hide whole page */
+    }
+}
+
+.fa {
+	vertical-align:middle;
+}
+
+.center {
+	text-align:center;
+}
+.hidden {
+	display:none;
+}
+.title {
+	font-size:1.1em;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.clear {
+	clear:both;
+}
+.good {
+	color:#090;
+}
+.neutral {
+	color:grey;
+}
+.bad {
+	color:#d00;
+}
+.right {
+	text-align:right !important;
+}
+.bold {
+	font-weight:bold;
+}
+
+/*******************************************************************************
+ *     LINKS                                                                   *
+ ******************************************************************************/
+
+a:link,
+a:visited {
+	text-decoration:none;
+	/*color:#900;*/
+	color:#98a7aa;
+}
+a:active,
+a:hover {
+	text-decoration:underline;
+	color:#5b6466;
+}
+
+/*******************************************************************************
+ *     TO ORGANIZE                                                             *
+ ******************************************************************************/
+
+#footer-padding {
+	height:48px;
+	clear:both;
+}
+
+.block-container {
+
+}
+.block,
+.block {
+
+}
+
+.pointer {
+	cursor:pointer;
+}
+
+.field:nth-of-type(odd) {
+	padding-top:8px;
+	padding-bottom:8px;
+	background-color:#fafaff;
+	border-top:1px solid #ccc;
+}
+.field:nth-of-type(even) {
+	padding-top:8px;
+	padding-bottom:8px;
+	background-color:#fff;
+	border-top:1px solid #ccc;
+}
+
+.input-container {
+	padding-bottom:12px;
+}
+.input-container .input-error {
+	float:left;
+	color:#f00;
+	font-weight:bold;
+	padding-left:4px;
+	font-style:italic;
+	font-size:0.7em;
+	padding-top:2px;
+}
+.input-container .input-title {
+	float:left;
+	font-weight:bold;
+}
+.input-container .input {
+	clear:both;
+}
+
+/* Notifications */
+
+.notification-container {
+	padding:16px;
+	margin-bottom:12px;
+	margin-top:8px;
+}
+.notification-container.notification-success {
+	background-color:#efe;
+	border:1px solid #0c0;
+	color:#090;
+}
+.notification-container.notification-warning {
+	background-color:#ffe;
+	border:1px solid #cc0;
+	color:#990;
+}
+.notification-container.notification-error {
+	background-color:#fee;
+	border:1px solid #c00;
+	color:#900;
+}
+.notification-container.notification-info {
+	background-color:#eee;
+	border:1px solid #aaa;
+	color:#000;
+}
+
+.overlayz th,
+.overlayz td {
+	padding-left:6px;
+	padding-right:6px;
+	vertical-align:bottom;
+}
+
+.fa.highlight {
+	color:#00f;
+	cursor:pointer;
+}
+.fa.not-highlight {
+	color:#999;
+	cursor:pointer;
+}
+.fa.fa-fire {
+	font-size:22px;
+	color:#f00;
+}
+
+@media only screen and (max-width: 640px) {
+	.form-horizontal .control-label {
+		width:100%;
+		text-align:center;
+	}
+	.form-horizontal .controls {
+		margin-left:0;
+		width:100%;
+		text-align:center;
+	}
+	.form-horizontal .text-error {
+		display:block;
+		float:left;
+		width:100%;
+		text-align:center;
+	}
+	.form-horizontal table {
+		width:100%;
+	}
+}
+
+.overlayz .toggle-print-icon {
+	display:inline-block;
+	position:absolute;
+	top:19px;
+	right:80px;
+	width:29px;
+	height:29px;
+
+	border:1px solid #a00000;
+	border-radius:3px;
+	cursor:pointer;
+	font-size:24px;
+	font-weight:bold;
+	background-color:rgb(204, 0, 0);
+	color:#fff;
+	text-align:center;
+	line-height:29px;
+}
+.overlayz .content-print-container > * {
+	display:inline-block;
+}
+.overlayz .content-print-container input[name="print-flag"] {
+	margin:8px;
+}
+.overlayz .content-print-container select[name="print-numlabels"] {
+	margin:0;
+	width:50px;
+}
+.overlayz .content-print-container input[name="print-qtyperbox"] {
+	margin:0;
+	width:60px;
+}
+.overlayz .content-print-container .print-button {
+	margin-top:14px;
+}
+.overlayz .content-print-container {
+	white-space:nowrap;
+}
+.overlayz .orderstat-checkboxes {
+	padding-left:24px;
+}
+.overlayz .orderstat-checkboxes input {
+	margin-top:0;
+}
+
+.content-po-status {
+	font-size:1.4em;
+	color:#840;
+}
+.content-po-status .content-po-status-shipped {
+	cursor:pointer;
+}
+
+
+/**
+ * TABS
+**/
+
+
+.tabs {
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	position:relative;
+	overflow-x:auto;
+	overflow-y:hidden;
+	max-height:32px;
+	white-space:nowrap;
+	font-size:0;
+	max-height:59px;
+}
+.tabs .tab {
+	display:inline-block;
+	height:35px;
+	line-height:12px;
+	vertical-align:middle;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	/*border-bottom:1px solid #ccc;*/
+	position:relative;
+	top:-1px;
+	line-height:35px;
+	padding:4px 12px;
+	background-color:#ccc;
+	cursor:pointer;
+	font-size:14px;
+}
+.tabs .tab:hover {
+	background-color:#eee;
+}
+.tabs .tab.active {
+	border-bottom:1px solid #fff;
+	background-color:#fff;
+}
+
+.tab-content {
+	padding:12px;
+}
+.tab-content td {
+	vertical-align:middle;
+}
+.tab-content .tab-content-section {
+	width:49%;
+	display:inline-block;
+}
+.tab-content .tab-content-section.full-width {
+	width:100%;
+}
+.tab-content .tab-content-section td.title-width {
+	width:100px;
+}
+.tab-content .bg-highlight {
+	background:#ff6;
+}
+@media only screen and (max-width: 640px) {
+	.tab-content .tab-content-section {
+		width:100%;
+	}
+}
+
+.loading-icon {
+	text-align:center;
+}
+.loading-icon img {
+	padding-top:100px;
+}
+
+.action.action-add {
+	color:#090;
+}
+.action.action-remove {
+	color:#f00;
+}
+.action.action-edit {
+	color:#00f;
+}
+
+.action {
+	cursor:pointer;
+	padding:6px;
+	line-height:24px;
+	vertical-align:middle;
+}
+.action.fa,
+.action .fa {
+	font-size:2em;
+}

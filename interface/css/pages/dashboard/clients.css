@@ -1,0 +1,71 @@
+
+/**
+ * FILTER CLIENTS
+**/
+
+#client-filters .letters {
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+}
+#client-filters .letters .letter {
+	display:inline-block;
+	padding:6px;
+	line-height:24px;
+	vertical-align:middle;
+	cursor:pointer;
+	color:#98a7aa;
+}
+#client-filters .letters .letter:hover {
+	color:#000;
+}
+#client-filters .letters .letter.selected {
+	color:#666;
+	font-weight:bold;
+}
+#client-filters .letters .letter::before {
+	content:"\00B7";
+	width:12px;
+	text-align:center;
+	display:inline-block;
+	line-height:24px;
+	vertical-align:middle;
+	padding-right:6px;
+}
+#client-filters .letters .letter:first-of-type::before {
+	content:"";
+}
+#client-filters .filters label {
+	display:inline-block;
+	line-height:18px;
+	vertical-align:middle;
+	padding-left:12px;
+	padding-right:24px;
+}
+#client-filters .filters label input {
+	margin:0;
+}
+#client-filters input[name="client-code"] { 
+	width:50px;
+	text-transform:uppercase;
+}
+
+/**
+ * CLIENTS LIST
+**/
+
+#clients-container .content-credit-hold .fa-lock {
+	color:#f00;
+	font-size:32px;
+}
+#clients-container .content-credit-hold .text {
+	display:none;
+}
+#clients-container tr.on-credit-hold td {
+	background-color:#f00;
+}
+
+#clients-container .content-code,
+#clients-container .content-client {
+	cursor: pointer;
+	color:#00f;
+}
